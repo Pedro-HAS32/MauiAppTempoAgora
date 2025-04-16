@@ -8,11 +8,16 @@
             Padding="30,0"
             Spacing="25">
 
+            <!--Busca-->
             <Entry x:Name="txt_cidade" />
-            <!--Botão de Busca-->
-            <Button Text="Buscar" Clicked="Button_Clicked_1" />
-
+            <Button Text="Buscar Previsão" Clicked="Button_Clicked_Previsao" />
             <Label x:Name="lbl_resp" />
+
+            <!--Localização atual-->
+            <Button Text="Minha Localização" Clicked="Button_Clicked_Localizacao" />
+            <Label x:Name="lbl_coords" />
+
+
         </VerticalStackLayout>
     </ScrollView>
 
